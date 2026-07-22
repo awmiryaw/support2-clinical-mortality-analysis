@@ -69,4 +69,7 @@ Run the notebooks in numerical order.
 
 ## Dataset
 
-This project uses the SUPPORT2 clinical dataset, containing information from over 9,000 hospitalized patients. The dataset is used for educational and research purposes to develop predictive models for in-hospital mortality.
+## Dataset
+
+This project uses the SUPPORT2 dataset from the UCI Machine Learning Repository, containing information from over 9,000 hospitalized patients. The dataset is used for educational and research purposes to develop predictive models for in-hospital mortality.
+Download the dataset and place it in the project root as `dataset.csv` before running the notebooks.
