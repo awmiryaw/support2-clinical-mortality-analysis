@@ -85,14 +85,31 @@ flowchart LR
 
 ## Notebook Guide
 
-| Notebook | Purpose | Main outputs |
-|---|---|---|
-| `1.cleaning_and_tidying.ipynb` | Standardizes columns, missing markers, data types, categories, and clinical validity constraints | `dataset_clean_tidy.csv` |
-| `2.data_quality_assess.ipynb` | Measures completeness and applies feature-specific missing-data strategies | `dataset_clean_tidy_filled.csv` |
-| `3.data_visualization.ipynb` | Explores distributions and relationships using statistical visualizations | Rendered plots inside the notebook |
-| `4.pre_process_and_data_analysis.ipynb` | Builds the preprocessing and Random Forest classification workflow | Cross-validation and held-out evaluation results |
+### 1. `1.cleaning_and_tidying.ipynb`
 
-Run the notebooks in numerical order because each stage depends on files created by the previous stage.
+Standardizes column names, missing-value markers, data types, categorical values, and clinical validity constraints.
+
+**Output:** `dataset_clean_tidy.csv`
+
+### 2. `2.data_quality_assess.ipynb`
+
+Measures dataset completeness and applies feature-specific missing-data strategies.
+
+**Output:** `dataset_clean_tidy_filled.csv`
+
+### 3. `3.data_visualization.ipynb`
+
+Explores clinical and demographic distributions, relationships, and mortality patterns through statistical visualizations.
+
+**Output:** rendered plots inside the notebook
+
+### 4. `4.pre_process_and_data_analysis.ipynb`
+
+Builds the preprocessing pipeline, trains the Random Forest classifier, tunes hyperparameters, and evaluates the model.
+
+**Output:** cross-validation results and held-out test metrics
+
+> Run the notebooks in numerical order because each stage depends on files created by the previous stage.
 
 ## Data Cleaning
 
