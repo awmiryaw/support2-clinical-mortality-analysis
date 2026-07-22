@@ -28,9 +28,6 @@ The repository is organized as four notebooks that form one sequential pipeline:
 
 The emphasis is not only on model training, but also on documenting data-quality decisions and preventing preprocessing leakage by placing transformations inside a scikit-learn `Pipeline`.
 
-> [!IMPORTANT]
-> This is an educational data-science project. It is not a validated clinical decision-support system and must not be used for diagnosis, treatment, triage, or real-world patient care.
-
 ## Project Highlights
 
 | Area | Implementation |
